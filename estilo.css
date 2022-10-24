@@ -1,0 +1,23 @@
+.cor1{
+    background-color: #ff0000;
+}
+.nome{
+color:white;
+}
+.container{
+    color: white;
+}
+.btn{
+    border:1px solid white;
+    color: white;
+    background: none;
+}
+.btn:hover{
+    background-color: #8a02028a;
+    color: white;
+    border-color: white;
+    box-shadow: 2px 2px 2px black;
+}
+h1:hover{
+    text-shadow: 2px 2px 2px #e23232;
+}
