@@ -2,9 +2,9 @@
     background-color: #ff0000;
 }
 .nome{
-color:white;
+    color:white;
 }
-.container{
+.container > h2{
     color: white;
 }
 .btn{
@@ -20,4 +20,36 @@ color:white;
 }
 h1:hover{
     text-shadow: 2px 2px 2px #e23232;
+}
+
+.filme{
+    background-color: black;
+}
+
+.filme > p, .filme > a {
+    display: none;
+}
+
+.filme:hover > img{
+    opacity: 0.2;
+}
+.filme:hover > p{
+    display: block;
+    position: absolute;
+    top: 0px;
+    color: white;
+}
+.filme:hover > a{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    border-radius: 2px 2px 2px 2px;
+}
+.filme:hover > #trailer{
+    display: block;
+    position: absolute;
+    bottom: 24px;
+    color: white;
+    border-radius: 2px 2px 2px 2px;
 }
